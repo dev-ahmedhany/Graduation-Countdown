@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Graduation-Countdown/static/css/main.79086a6b.css",
+    "main.js": "/Graduation-Countdown/static/js/main.b30c5215.js",
+    "static/media/logo.gif": "/Graduation-Countdown/static/media/logo.1a867ad5279fb9b13687.gif",
+    "index.html": "/Graduation-Countdown/index.html",
+    "main.79086a6b.css.map": "/Graduation-Countdown/static/css/main.79086a6b.css.map",
+    "main.b30c5215.js.map": "/Graduation-Countdown/static/js/main.b30c5215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79086a6b.css",
+    "static/js/main.b30c5215.js"
+  ]
+}
