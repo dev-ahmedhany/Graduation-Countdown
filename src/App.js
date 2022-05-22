@@ -17,9 +17,9 @@ class App extends Component {
         </div>
 
         <h3 className="title">
-          Graduation from this misery is coming soon (Noon of 19th of July, UTC+2 time):
+          Graduation from this misery is coming soon (Noon of 22th of June):
         </h3>
-        <Countdown date={`${year}-07-19T17:00:00`} />
+        <Countdown date={`${year}-06-22T12:00:00`} />
       </div>
     );
   }
