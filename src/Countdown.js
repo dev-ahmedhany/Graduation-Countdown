@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import gif from './897.gif'
 
 class Countdown extends Component {
   constructor(props) {
@@ -17,7 +18,12 @@ class Countdown extends Component {
     // update every second
     this.interval = setInterval(() => {
       const date = this.calculateCountdown(this.props.date);
-      date ? this.setState(date) : this.stop();
+      if(date) {
+        this.setState(date)
+      } else{
+        this.setState({finished:true})
+        this.stop();
+      }
     }, 1000);
   }
 
@@ -79,7 +85,18 @@ class Countdown extends Component {
   render() {
     const countDown = this.state;
 
-    return (
+    return this.state.finished ? (
+    <>
+      <h3 className="title">
+        Finally graduated 🎉✨
+      </h3>
+      <img src={gif} alt="now what" />
+    </>
+    ) : (
+      <>
+      <h3 className="title">
+          Graduation from this misery is coming soon (Noon of 22th of June):
+      </h3>
       <div className="Countdown">
         <span className="Countdown-col">
           <span className="Countdown-col-element">
@@ -109,6 +126,7 @@ class Countdown extends Component {
           </span>
         </span>
       </div>
+      </>
     );
   }
 }
