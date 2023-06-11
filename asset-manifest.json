@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Graduation-Countdown/static/css/main.79086a6b.css",
-    "main.js": "/Graduation-Countdown/static/js/main.e15c307c.js",
+    "main.js": "/Graduation-Countdown/static/js/main.2c647b78.js",
     "static/media/897.gif": "/Graduation-Countdown/static/media/897.92cd30cdbae1da06eb06.gif",
     "static/media/logo.gif": "/Graduation-Countdown/static/media/logo.1a867ad5279fb9b13687.gif",
     "index.html": "/Graduation-Countdown/index.html",
     "main.79086a6b.css.map": "/Graduation-Countdown/static/css/main.79086a6b.css.map",
-    "main.e15c307c.js.map": "/Graduation-Countdown/static/js/main.e15c307c.js.map"
+    "main.2c647b78.js.map": "/Graduation-Countdown/static/js/main.2c647b78.js.map"
   },
   "entrypoints": [
     "static/css/main.79086a6b.css",
-    "static/js/main.e15c307c.js"
+    "static/js/main.2c647b78.js"
   ]
 }
