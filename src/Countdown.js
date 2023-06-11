@@ -95,7 +95,7 @@ class Countdown extends Component {
     ) : (
       <>
       <h3 className="title">
-          Graduation from this misery is coming soon (Noon of 22th of June):
+          Graduation from this misery is coming soon (Noon of 21th of June):
       </h3>
       <div className="Countdown">
         <span className="Countdown-col">
