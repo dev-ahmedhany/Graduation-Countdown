@@ -12,7 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Graduation Countdown</h2>
         </div>
-        <Countdown date={`${year}-06-22T12:00:00`} />
+        <Countdown date={`${year}-06-21T12:00:00`} />
       </div>
     );
   }
